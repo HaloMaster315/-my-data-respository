@@ -1,10 +1,16 @@
 html {
-    background: url("img/bg3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
     background-attachment: fixed;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 100%;
+}
+
+@media all and (min-width: 35em){
+    html {
+        background: url("img/bg3.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
 body {
