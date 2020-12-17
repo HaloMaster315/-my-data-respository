@@ -1,7 +1,7 @@
 html {
     background: url("img/bg3.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 100%;
@@ -42,6 +42,7 @@ header {
 nav {
     border: 0.05em solid;
     border-radius: 0.5em;
+    background-color: #E9DCBD;
     margin: 0.5em 0em 0.5em 0em;
     position: sticky;
     top: 3.5em;
@@ -100,7 +101,7 @@ nav:hover .image {
 }
 
 nav li:hover {
-    background-color: lightgray;
+    background-color: #999999;
     border-radius: 0.3em;
 }
 
@@ -113,9 +114,29 @@ main {
     text-align: justify;
 }
 
+main h1, h3{
+    margin-bottom: 3em;
+}
+
 main p{
+    margin-bottom: 3em;
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+main ul{
+    margin-bottom: 3em;
     font-size: 1.2em;
     line-height: 1.6em;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    text-decoration: underline;
 }
 
 main p:first-child:first-letter {
